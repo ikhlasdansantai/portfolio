@@ -1,6 +1,6 @@
 import { Metadata } from "next";
-import TechList from "../components/layouts/Overview/TechList";
-import Certificate from "../components/layouts/Overview/certificates/Certificate";
+import TechList from "../_components/layouts/Overview/TechList";
+import Certificate from "../_components/layouts/Overview/certificates/Certificate";
 
 export const metadata: Metadata = {
   title: "Overview",
