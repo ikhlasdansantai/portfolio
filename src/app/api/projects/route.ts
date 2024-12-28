@@ -1,7 +1,41 @@
 import { NextResponse } from "next/server";
+import Fex from "../../../../assets/projects/Proj/frontend-express.png";
+// import LizuPortfolio from "../../../../assets/projects/Proj/lizu-portfolio.png";
 
 export async function GET() {
   const data = [
+    // {
+    //   id: 101,
+    //   name: "Lizu Portfolio",
+    //   description:
+    //     "Proyek ini adalah hasil dari uji coba saya untuk mengeksplorasi tren desain bento grid, sebuah layout simple modern yang sangat populer saat ini. Saya mencoba menerapkannya melalui proyek sederhana berupa personal portfolio",
+    //   url: LizuPortfolio,
+    //   links: {
+    //     livePreview: "https://lizu-portfolio.vercel.app/",
+    //   },
+    //   technology: [
+    //     "https://raw.githubusercontent.com/tandpfun/skill-icons/59059d9d1a2c092696dc66e00931cc1181a4ce1f/icons/NextJS-Dark.svg",
+    //     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+    //     "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+    //     "https://cdn.simpleicons.org/tailwindcss/06B6D4.svg",
+    //   ],
+    //   category: "web development",
+    // },
+    {
+      id: 101,
+      name: "Frontend Express",
+      description: "Sebuah solusi untuk mempermudah pengembangan frontend dengan boilerplate siap pakai menggunakan teknologi favoritmu",
+      url: Fex,
+      links: {
+        livePreview: "https://frontend-express-demo-preview.vercel.app/",
+      },
+      technology: [
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+        "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "https://cdn.simpleicons.org/tailwindcss/06B6D4.svg",
+      ],
+      category: "web development",
+    },
     {
       id: 1,
       name: "ww2 Trailer",
